@@ -116,7 +116,7 @@ app.use(function(err, req, res, next){
 });
 
 initDb(function(err){
-  console.log('Error connecting to Mongo. Message:\n'+err);
+  console.log('Error connecting to MongoDB. Message:\n'+err);
 });
 
 app.listen(port, ip);
